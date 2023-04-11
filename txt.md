@@ -5,7 +5,7 @@ This a tutorial on logging into your course-specific account on ieng6. Have fun!
 ## Step 1: Accessing Your Course-Specific Account
 You can look up your account on the following link,
 
-**(https://sdacs.ucsd.edu/~icc/index.php)**
+[https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
 
 The link should bring you to a page similar to the one below, enter your TritonLink Username in the first box and your PID in the second.
 
@@ -24,7 +24,7 @@ Once typed in click enter and then select **"I want to reset my course-specific 
 
 First go to the following website to access the installers for Visual Studio Code:
 
-**https://code.visualstudio.com/**
+[https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 <img width="951" alt="image" src="https://user-images.githubusercontent.com/130115948/231048231-46f07fa7-26c7-4dfe-a6c4-9a472992e954.png">
 
@@ -38,7 +38,7 @@ If you are on macOS you can skip the next step to downloading "git".
 
 Otherwise if you are Windows you will have to follow the link below and download git.
 
-**https://gitforwindows.org/**
+[https://gitforwindows.org/)](https://gitforwindows.org/)
 
 Once you are finished you will have to access Bash in the terminal. First use the shortcut (control + \`) to open the terminal, you will get something similar to below.
 
