@@ -5,7 +5,7 @@ This a tutorial on logging into your course-specific account on ieng6. Have fun!
 ## Step 1: Accessing Your Course-Specific Account
 You can look up your account on the following link,
 
-**https://sdacs.ucsd.edu/~icc/index.php**
+**(https://sdacs.ucsd.edu/~icc/index.php)**
 
 The link should bring you to a page similar to the one below, enter your TritonLink Username in the first box and your PID in the second.
 
@@ -72,10 +72,15 @@ Now this is the fun part! You can now play arround and see what commands will gi
 Here is the list of commands to try out for yourself, as well as an example of some code used.
 
 **cd ~**
+
 **cd**
+
 **ls -lat**
+
 **ls-a**
+
 **cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/**
+
 **cat /home/linux/ieng6/cs15lsp23/public/hello.txt**
 
 <img width="568" alt="image" src="https://user-images.githubusercontent.com/130115948/231051257-6ab761b8-965d-411b-a372-5b672fa5b23d.png">
