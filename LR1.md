@@ -52,7 +52,7 @@ You are ready to connect!
 
 You will use the ssh command to connect to your account by typing the following command, make sure to replace () with your coresponding username letter:
 
-**ssh cs15lsp23()@ieng6.ucsd.edu**
+``$ ssh cs15lsp23()@ieng6.ucsd.edu``
 
 You will get prompted if you would like to continue connect, type in:
 
@@ -71,17 +71,17 @@ Now this is the fun part! You can now play arround and see what commands will gi
 
 Here is the list of commands to try out for yourself, as well as an example of some code used.
 
-**cd ~**
+``$ cd ~``
 
-**cd**
+``$ cd*``
 
-**ls -lat**
+``$ ls -lat``
 
-**ls-a**
+``$ ls-a``
 
-**cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/**
+``$ cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/``
 
-**cat /home/linux/ieng6/cs15lsp23/public/hello.txt**
+``$ cat /home/linux/ieng6/cs15lsp23/public/hello.txt``
 
 <img width="568" alt="image" src="https://user-images.githubusercontent.com/130115948/231051257-6ab761b8-965d-411b-a372-5b672fa5b23d.png">
 
