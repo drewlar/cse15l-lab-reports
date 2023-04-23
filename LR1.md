@@ -72,16 +72,22 @@ Now this is the fun part! You can now play arround and see what commands will gi
 Here is the list of commands to try out for yourself, as well as an example of some code used.
 
 ````$ cd ~````
+  *This command brings you to the home directory of the remote computer*
 
-````$ cd*````
+````$ cd````
+  *This command also brings you to the home directory of the remote computer*
 
 ````$ ls -lat````
+  *This command lists out the files and folders in the given path "-lat"*
 
 ````$ ls-a````
+  *This command lists out the files and folders in the given path "-a"*
 
 ````$ cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/````
+  *This command copies the files at the given path to your local computer*
 
 ````$ cat /home/linux/ieng6/cs15lsp23/public/hello.txt````
+  *Prints the information from the given path*
 
 <img width="568" alt="image" src="https://user-images.githubusercontent.com/130115948/231051257-6ab761b8-965d-411b-a372-5b672fa5b23d.png">
 
