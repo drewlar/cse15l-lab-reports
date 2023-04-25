@@ -37,7 +37,7 @@
   }
 }
 ```
-### Symptomm
+### Symptom
 
 <img width="1104" alt="image" src="https://user-images.githubusercontent.com/130115948/234173306-082b59a2-c67b-40ab-a442-e2a93a035a1f.png">
 
@@ -67,3 +67,7 @@ class EvensExample {
 }
 ```
 The only thing needed to be changed was the index of which sum was getting its value from, in the before the method was grabbing every even number but not the even index (remember index starts at 0 not 1), thus the before code was actually getting all the odd indices. With this change it is now starting at the 0th index and then going through every even index
+
+
+## Part 3
+To me websites seemed something way beyond my grasp of knowledge, I thought I neeeded a very indepth knowledge of how data is transfered in and out of servers and how to set up the actuall display. I learned from lab 2 that it is somewhat easier than I thought, I learned that I can create my own local server and enter my own website, this is pretty cool because I wonder if I can create some methods / systems that could help me in my HW, or perhaps I can set up the page on my UCSD accound then have a chat based website with my Peers. Lab 2 brought a small glimpse on how servers and websites work, I hope I could use this in the near future for fun :).
