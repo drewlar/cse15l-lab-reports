@@ -55,3 +55,15 @@ class EvensExample {
 }
 ```
 #### After
+```
+class EvensExample {
+  static int sumEvenIndices(int[] nums) {
+    int sum = 0;
+    for(int i = 0; i < nums.length; i += 2) {
+      sum += nums[i];
+    }
+    return sum;
+  }
+}
+```
+The only thing needed to be changed was the index of which sum was getting its value from, in the before the method was grabbing every even number but not the even index (remember index starts at 0 not 1), thus the before code was actually getting all the odd indices. With this change it is now starting at the 0th index and then going through every even index
