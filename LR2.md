@@ -15,3 +15,31 @@
 * Some other methods that are called here are the ``String.format()`` and ``.getQuery()``
 * ``String.format()`` takes in the what is in ``message``, in this case ``"How Are you \n I Am doing very fine thank you for asking :) \n"`` and sets it up to be able to print out on the web server in ``localhost:3000``. ``getQuery()`` gets the part of the URL starting at ``?`` which indicates the start of a query.
 * Both methods change depending on what is sent through the query part of url, in this case ``String.format()`` would return a completely different set of words if the query is changed, ``.getQuery()`` would change according as well
+
+
+## Part 2
+### Failure-inducing input
+```
+@Test 
+  public void testSumEvensLength4()
+  {
+    int[] input1 = { 12, 13, 7, 2};
+   assertEquals(EvensExample.sumEvenIndices(input1), 19);
+  }
+```
+### Failure free input
+
+```
+@Test
+  public void testSumEvenLength6() {
+    int[] input1 = { 12, 13, 7, 8, 5, 3};
+    assertEquals(EvensExample.sumEvenIndices(input1), 24);
+  }
+}
+```
+### Symptomm
+
+<img width="1104" alt="image" src="https://user-images.githubusercontent.com/130115948/234173306-082b59a2-c67b-40ab-a442-e2a93a035a1f.png">
+
+### Before-After Bug
+#### Before
