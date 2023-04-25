@@ -9,3 +9,9 @@
 * Some of the methods that are called are ``.handleRequest()`` and ``.getPath()``
 * ``handleRequest()`` takes in the whole url that the user inputs into their web browser and ``.getPath()`` retreives the path which is the part of the domain ``localhost:3000`` in this case
 * Both methods' relevent fields change because they are directly corrolated to the given url which in this case is ``http://localhost:3000/add-message?s=How%20Are%20you`` if it were other request ``.getPath()`` would have a completely or perhaphs similar path right after the `3000`, for ``handleRequest()`` only the part after the domain changes since we are dealing with the same domain everytime.
+
+<img width="1046" alt="image" src="https://user-images.githubusercontent.com/130115948/234170274-024bea06-3239-46a2-a933-c8e7ce1b8643.png">
+
+* Some other methods that are called here are the ``String.format()`` and ``.getQuery()``
+* ``String.format()`` takes in the what is in ``message``, in this case ``"How Are you \n I Am doing very fine thank you for asking :) \n"`` and sets it up to be able to print out on the web server in ``localhost:3000``. ``getQuery()`` gets the part of the URL starting at ``?`` which indicates the start of a query.
+* Both methods change depending on what is sent through the query part of url, in this case ``String.format()`` would return a completely different set of words if the query is changed, ``.getQuery()`` would change according as well
