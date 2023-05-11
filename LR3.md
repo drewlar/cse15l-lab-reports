@@ -162,27 +162,27 @@ technical/plos/pmed.0020157.txt
 technical/plos/pmed.0020192.txt
 ```
 
-## 4. ```find```
-
+## 4. ```find [path] -iname [pattern[]```
+This command outputs the matched path but it is case insensitive
 ### Example 1:
 ***
 #### Input:
 ```
-
+$ find technical/ -iname plos
 ```
 #### Output:
 ```
-
+technical/plos
 ```
 
 ### Example 2:
 ***
 #### Input:
 ```
-
+$ find technical/ -iname Plos
 ```
 #### Output:
 ```
-
+technical/plos
 ```
 
