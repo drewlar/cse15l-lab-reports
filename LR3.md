@@ -1,6 +1,6 @@
 # Lab Report 3: Researching ``find`` Command
 ## 1. ```find [path] -type [file type]```
-This command outputs the files that are of the specificed file type (shown below) found from within the given path. 
+This command outputs the files that are of the specificed file type (shown below) found from within the given path. (Credit to ```man``` command)
 
 File Type Options:
 
@@ -61,7 +61,7 @@ technical/911report/preface.txt
 ```
 
 ## 2. ```find [path] -maxdepth [n]```
-This command outputs the files from at most n directory levels.
+This command outputs the files from at most n directory levels.(Credit to ```man``` command)
 ### Example 1:
 ***
 #### Input:
@@ -124,6 +124,7 @@ This command outputs the files with that file size amount rounded up, the size a
              P       petabytes (1024 terabytes)
 
 
+(Credit to ```man``` command)
 
 ### Example 1:
 ***
@@ -163,7 +164,7 @@ technical/plos/pmed.0020192.txt
 ```
 
 ## 4. ```find [path] -iname [pattern[]```
-This command outputs the matched path but it is case insensitive
+This command outputs the matched path but it is case insensitive.(Credit to ```man``` command)
 ### Example 1:
 ***
 #### Input:
