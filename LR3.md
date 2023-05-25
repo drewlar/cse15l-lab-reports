@@ -1,6 +1,6 @@
 # Lab Report 3: Researching ``find`` Command
 ## 1. ```find [path] -type [file type]```
-This command outputs the files that are of the specificed file type (shown below) found from within the given path. (Credit to ```man``` command)
+This command outputs the files that are of the specificed file type (shown below) found from within the given path. This is useful in cases where you would want to find a lot of files, which you may have downloaded within a folder. Perhaps you can then find something from these files using a bash script. This allows the user to only tackle a certain type of files without running into problems if they try to edit or manipulate a file type that can't be manipulated just like a directory. (Credit to ```man``` command)
 
 File Type Options:
 
@@ -32,6 +32,8 @@ technical/government/Media
 technical/government/Post_Rate_Comm
 technical/plos
 ```
+* Here, only the paths shown are the ones in technical/ that are diretories. Thus, this only shows all folders inside the technical/ directory, as well as the folders inside folders. It will not show anything with .txt, .java, etc because they are files and not directories. 
+* It is useful to look for directories in cases where you want to see how files are orgainized in a given space, for example here files are split among government files, 911 reports, Alcohol Problems, Meda, etc. You can then also see where to find specific files by narrowing down your search within directories.
 
 ### Example 2:
 ***
@@ -59,6 +61,8 @@ technical/911report/chapter-8.txt
 technical/911report/chapter-9.txt
 technical/911report/preface.txt
 ```
+* Only paths to files in the technical/911report/ directory are shown here. Thus, this only shows all files inside the technical/911report/ directory, as well as the files inside folders. It will show anything that has .txt, .java, etc because they are files.
+* Like stateed before this is useful if you are trying to run a bash script on a big load of files and need to isolate only the files with a directory, this can generalize file searches instead of searching for .java files, .txt files specifically. Here you are alos able to see the chapters in the 911report folder.
 
 ## 2. ```find [path] -maxdepth [n]```
 This command outputs the files from at most n directory levels.(Credit to ```man``` command)
@@ -76,6 +80,7 @@ technical/biomed
 technical/government
 technical/plos
 ```
+*
 
 ### Example 2:
 ***
