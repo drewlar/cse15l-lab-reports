@@ -62,7 +62,7 @@ technical/911report/chapter-9.txt
 technical/911report/preface.txt
 ```
 * Only paths to files in the technical/911report/ directory are shown here. Thus, this only shows all files inside the technical/911report/ directory, as well as the files inside folders. It will show anything that has .txt, .java, etc because they are files.
-* Like stateed before this is useful if you are trying to run a bash script on a big load of files and need to isolate only the files with a directory, this can generalize file searches instead of searching for .java files, .txt files specifically. Here you are alos able to see the chapters in the 911report folder.
+* Like stateed before this is useful if you are trying to run a bash script on a big load of files and need to isolate only the files with a directory. This can generalize file searches instead of searching for .java files, .txt files specifically. Here, you are specifically able to see the chapters in the 911report folder.
 
 ## 2. ```find [path] -maxdepth [n]```
 This command outputs the files from at most n directory levels.(Credit to ```man``` command)
