@@ -171,8 +171,8 @@ technical/plos/pmed.0020192.txt
 ```
 * Here, the output only gives files that are 2 kilobytes big which are within the government/ and plos/ directories, these files may be crucial in providing key data in cases such as Court cases, media outlet information and health information.
 
-## 4. ```find [path] -iname [pattern[]```
-This command outputs the matched path but it is case insensitive.(Credit to ```man``` command)
+## 4. ```find [path] -iname [pattern]```
+This command outputs the matched path but it is case insensitive. This can be used in cases where you are trying to find a specific name of a file which ignores the capitalization. This will enable a user to find more files without being too specific are what they are trying to find. Perhaps a user is trying to find all of the files that match a certain name while not wanting to worry about the casing. (Credit to ```man``` command)
 ### Example 1:
 ***
 #### Input:
@@ -183,6 +183,7 @@ $ find technical/ -iname plos
 ```
 technical/plos
 ```
+* Here the output only shows files with plos in the name. It does not care about capitals. This is useful if trying to find all files with the same name that may have a different capital letter within the word.
 
 ### Example 2:
 ***
@@ -194,4 +195,4 @@ $ find technical/ -iname Plos
 ```
 technical/plos
 ```
-
+* Here is the same seach with with Plos with a capital P. In this case, the same output is given since this is case insensitive. Although the difference is very slight, it is still present. It could be hard to tell at first, but that is what's interesting about the command.
