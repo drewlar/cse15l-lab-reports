@@ -65,7 +65,7 @@ technical/911report/preface.txt
 * Like stateed before this is useful if you are trying to run a bash script on a big load of files and need to isolate only the files with a directory. This can generalize file searches instead of searching for .java files, .txt files specifically. Here, you are specifically able to see the chapters in the 911report folder.
 
 ## 2. ```find [path] -maxdepth [n]```
-This command outputs the files from at most n directory levels.(Credit to ```man``` command)
+This command outputs the files from at most n directory levels. This is useful to get a grasp of how big a certain directory is, which can then give you grasp of how much data you are dealing with, perhaps in a larger scale project. This can substitute the `-type d` command if you are trying just go into the folder at a certain depth.(Credit to ```man``` command)
 ### Example 1:
 ***
 #### Input:
@@ -80,7 +80,7 @@ technical/biomed
 technical/government
 technical/plos
 ```
-*
+* Here, the output is only the directories in the technical/ folder. The output does not give us any normal files since none exist in the first depth of the technical/ directory. The `-maxdepth 1` command is useful as it allows the user to specify how deep in the directory they'll want to search. This will output the folders 911report, biomed, government, and plos.
 
 ### Example 2:
 ***
@@ -117,6 +117,7 @@ technical/plos/journal.pbio.0020012.txt
 ...
 
 ```
+* Here, the output shows all files and folders that satify the depth of 2 within the technical/ directory. This time, it also includes files since some files are found within the 1 depth of folders. More folders (and .txt files) are shown within this `-maxdepth 2` command making it helpful for the user, searching for additional paths. This command outputs .txt files in the 911report, biomed, and plos folder.
 
 ## 3. ```find [path] -size [n][ckMGTP]```
 This command outputs the files with that file size amount rounded up, the size amount is the second descriptor, give below:
@@ -129,7 +130,7 @@ This command outputs the files with that file size amount rounded up, the size a
              P       petabytes (1024 terabytes)
 
 
-(Credit to ```man``` command)
+This is handy in cases where you are trying to find large files within a project that you may need to export. This may also allow to find smaller files that may or may not have anything in them, meaning they are not useful and are just taking up space which may be valuable in the long run of the project.(Credit to ```man``` command)
 
 ### Example 1:
 ***
@@ -142,6 +143,7 @@ $ find technical/ -size 1k
 technical/plos/pmed.0020191.txt
 technical/plos/pmed.0020226.txt
 ```
+* Here, the output only shows files that are just 1 kilobyte. These files can then be said to not be large enough to matter and may thus not be contributing to a project as much as other files. It may be possible to delete these files in the plos/ directory which are the pmed files.
 
 ### Example 2:
 ***
@@ -167,6 +169,7 @@ technical/plos/pmed.0020120.txt
 technical/plos/pmed.0020157.txt
 technical/plos/pmed.0020192.txt
 ```
+* Here, the output only gives files that are 2 kilobytes big which are within the government/ and plos/ directories, these files may be crucial in providing key data in cases such as Court cases, media outlet information and health information.
 
 ## 4. ```find [path] -iname [pattern[]```
 This command outputs the matched path but it is case insensitive.(Credit to ```man``` command)
