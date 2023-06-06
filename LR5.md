@@ -24,3 +24,5 @@
 
 
 ## Part 2: Reflection
+
+In the second half of this quarter learning how to create grading scripts and seeing how gradescope works at a smaller level was pretty intresting to learn about. This could be nice to create bash scripts to easily run testing of my files that I need to work on, that way I don't need to re run the same commands in the termnial. Instead I can just do bash Testing.sh, and then arrange the parameters as I see fit. I hope to use this for personal projects and even perhaps when I work! This class has been very fun overall! 
