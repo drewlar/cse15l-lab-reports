@@ -27,4 +27,5 @@ Then re-run the test doing ``bash`` ``<space>`` ``<tab>`` ``test`` ``<tab>`` ``<
 ## 6. Commit and push the resulting change to your Github account (you can pick any commit message!)
 We can commit by typing ```git comit -a``` then type in a message I put hello. Then do ``:wq`` to save and quit.
 <img width="760" alt="image" src="https://github.com/drewlar/cse15l-lab-reports/assets/130115948/e83e4faa-5c7a-4525-ba0e-d0ab9ca15422">
+
 Last but not least type in ```git push``` and <Enter> which will upload all the changes you have made and commited to the repository.
